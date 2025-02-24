@@ -1,0 +1,44 @@
+/* Main container with background image */
+.body-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://source.unsplash.com/1600x900/?technology,abstract") no-repeat center center/cover;
+    padding: 20px;
+}
+
+/* Routes container */
+.body-content {
+    width: 80%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.9); /* Transparent White Background */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .body-container {
+        padding: 10px;
+    }
+
+    .body-content {
+        width: 90%;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,39 @@
+.update-container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #ffffff, #dde1e7);
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.update-input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.update-button {
+  background: linear-gradient(135deg, #17a2b8, #0d6efd);
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.update-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #0d6efd, #0a58ca);
+}
+
+.update-result {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
